@@ -1,4 +1,4 @@
-'use client'; // Wichtig für interaktive Komponenten wie Scroll, Buttons etc.
+'use client';
 
 import CapsuleNav from '../components/CapsuleNav';
 import ContactButton from '../components/ContactButton';
@@ -43,13 +43,12 @@ const projects = [
   }
 ];
 
-const HomePage = () => {
+export default function Page() {
   return (
     <div>
       <CapsuleNav />
       <FirstParallaxSection />
 
-      {/* Projekte Abschnitt */}
       <div id="projects" className="py-24 bg-white px-6">
         <h2 className="text-3xl text-center mb-8 font-semibold">My Projects</h2>
         <div className="overflow-x-auto scrollbar-hide px-4 sm:px-8">
@@ -69,6 +68,4 @@ const HomePage = () => {
       <ContactSection />
     </div>
   );
-};
-
-export default HomePage;
+}
