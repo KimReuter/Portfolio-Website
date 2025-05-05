@@ -28,11 +28,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/projects/boulderHallProjectPage": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/projects/boulderHallProjectPage.js"
-    ],
     "/projects/codesnippets": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
