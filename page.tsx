@@ -1,14 +1,14 @@
 'use client';
 
-import CapsuleNav from '../components/CapsuleNav';
-import ContactButton from '../components/ContactButton';
-import AboutSection from '../components/AboutSection';
-import ProjectCard from '../components/ProjectCard';
-import ContactSection from '../components/ContactSection';
-import SkillsSection from '../components/SkillsSection';
-import TestimonialsSection from '../components/TestimonialsSection';
-import FirstParallaxSection from '../components/FirstParallaxSection';
-import CTASection from '../components/CTASection';
+import CapsuleNav from './components/CapsuleNav';
+import ContactButton from './components/ContactButton';
+import AboutSection from './components/AboutSection';
+import ProjectCard from './components/ProjectCard';
+import ContactSection from './components/ContactSection';
+import SkillsSection from './components/SkillsSection';
+import TestimonialsSection from './components/TestimonialsSection';
+import FirstParallaxSection from './components/FirstParallaxSection';
+import CTASection from './components/CTASection';
 
 const projects = [
   {
