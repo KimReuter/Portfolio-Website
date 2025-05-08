@@ -20,13 +20,13 @@ const projects = [
   {
     title: 'Code Snippets',
     description: 'A web app where users can create and save small code snippets. Users can log in and view all their created snippets.',
-    slug: 'codesnippets',
+    slug: 'codeSnippets',
     imageUrl: '/code-baerlauch.jpg'
   },
   {
     title: 'BoulderHall App',
     description: 'A digital app for the local climbing gym, enabling smooth entry processing, progress tracking, route searching, and member networking.',
-    slug: 'boulderHallProjectPage',
+    slug: 'boulderHallProject',
     imageUrl: 'BoulderhallePlauen/BoulderhalleMockup.jpg' 
   },
   {
