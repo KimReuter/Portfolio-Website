@@ -31,23 +31,27 @@ const CapsuleNav = () => {
   ];
 
   return (
-    <div className="fixed top-6 left-1/2 transform -translate-x-1/2 z-50 bg-white bg-opacity-80 px-4 py-2 rounded-full shadow-lg flex space-x-2">
-      {navItems.map((item) => (
-        <span
-          key={item.id}
-          className={`px-4 py-1 text-sm rounded-full transition-colors duration-300 ${
-            activeSection === item.id
-              ? 'bg-green-500 text-green-700 font-semibold'  // Active text in green
-              : 'text-gray-600 hover:text-green'
-          }`}
-          onClick={() => {
-            document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' });
-          }}
-        >
-          {item.label}
-        </span>
-      ))}
-    </div>
+    <div className="fixed top-2 sm:top-6 left-1/2 transform -translate-x-1/2 z-50 
+                bg-white bg-opacity-90 px-2 sm:px-4 py-1 sm:py-2 rounded-full 
+                shadow-md flex space-x-1 sm:space-x-2 
+                overflow-x-auto max-w-[95vw] sm:max-w-none scrollbar-hide">
+  {navItems.map((item) => (
+    <span
+      key={item.id}
+      className={`px-2 sm:px-4 py-1 text-xs sm:text-sm whitespace-nowrap rounded-full 
+                  transition-colors duration-300 ${
+                    activeSection === item.id
+                      ? 'bg-green-500 text-green-700 font-semibold'
+                      : 'text-gray-600 hover:text-green'
+                  }`}
+      onClick={() => {
+        document.getElementById(item.id)?.scrollIntoView({ behavior: 'smooth' });
+      }}
+    >
+      {item.label}
+    </span>
+  ))}
+</div>
   );
 };
 
