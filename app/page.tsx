@@ -17,12 +17,14 @@ const projects = [
     slug: 'greenly',
     imageUrl: '/Greenly/GreenlyMockup.jpg'
   },
+  /*
   {
     title: 'Code Snippets',
     description: 'A web app where users can create and save small code snippets. Users can log in and view all their created snippets.',
     slug: 'codeSnippets',
     imageUrl: '/code-baerlauch.jpg'
   },
+  */
   {
     title: 'BoulderHall App',
     description: 'A digital app for the local climbing gym, enabling smooth entry processing, progress tracking, route searching, and member networking.',
@@ -46,6 +48,12 @@ const projects = [
     description: 'A playful Swift app built in just one week – featuring animations, notifications, and first test implementations.',
     slug: 'dogLike',
     imageUrl: '/DogLike/PreviewDog.jpg'
+  },
+  {
+    title: 'Sylando App',
+    description: 'A minimal shopping app to explore ViewModel and Repository patterns in Swift – design was not the focus.',
+    slug: 'sylando',
+    imageUrl: '/Sylando/SylandoPreview.jpg'
   }
 ];
 
