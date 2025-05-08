@@ -4,10 +4,12 @@ import { useRef } from 'react';
 
 const FirstParallaxSection = () => {
   const ref = useRef(null);
-  const { scrollYProgress } = useScroll({ target: ref, offset: ['start end', 'end start'] });
+  const { scrollYProgress } = useScroll({ target: ref, offset: ['start center', 'end start'] });
 
-  const scale = useTransform(scrollYProgress, [0, 1], [1.05, 1]);
-  const y = useTransform(scrollYProgress, [0, 1], ['0px', '50px']);
+  const scale = useTransform(scrollYProgress, [0, 1], [1.1, 1]); // statt 1.05
+  const y = useTransform(scrollYProgress, [0, 1], ['-50px', '80px']); // statt 0 → 50
+
+  const opacity = useTransform(scrollYProgress, [0, 1], [1, 0.8]);
 
   return (
     <section ref={ref} className="relative w-full h-[60vh] sm:h-screen overflow-hidden">
@@ -19,6 +21,7 @@ const FirstParallaxSection = () => {
           backgroundRepeat: 'no-repeat',
           scale,
           y,
+          opacity
         }}
         className="absolute inset-0 z-0"
       />
