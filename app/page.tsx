@@ -15,7 +15,7 @@ const projects = [
     title: 'Greenly',
     description: 'Your sustainable cosmetics app with smart DIY recipes, shopping list, and inventory feature.',
     slug: 'greenly',
-    imageUrl: 'Greenly/GreenlyMockup.jpg'
+    imageUrl: '/Greenly/GreenlyMockup.jpg'
   },
   {
     title: 'Code Snippets',
@@ -27,19 +27,19 @@ const projects = [
     title: 'BoulderHall App',
     description: 'A digital app for the local climbing gym, enabling smooth entry processing, progress tracking, route searching, and member networking.',
     slug: 'boulderHallProject',
-    imageUrl: 'BoulderhallePlauen/BoulderhalleMockup.jpg' 
+    imageUrl: '/BoulderhallePlauen/BoulderhalleMockup.jpg' 
   },
   {
     title: 'Social Media App',
     description: 'A modular Kotlin app built with Jetpack Compose to explore UI components, state management, modals, animations, and navigation between screens.',
     slug: 'socialMediaApp',
-    imageUrl: 'BoulderhallePlauen/BoulderhalleMockup.jpg'
+    imageUrl: '/BoulderhallePlauen/BoulderhalleMockup.jpg'
   },
   {
     title: 'Chat Bot App',
     description: 'A beginner-friendly chatbot app built with Jetpack Compose to explore fundamental concepts like Composables, layouting, previews, and theming.',
     slug: 'chatBot',
-    imageUrl: 'ChatBot/Robot.jpg'
+    imageUrl: '/ChatBot/Robot.jpg'
   }
 ];
 
