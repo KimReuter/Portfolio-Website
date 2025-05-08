@@ -1,4 +1,4 @@
-import BackToHomeButton from '@/components/BackToHomeButton';
+import BackToHomeButton from '../../../components/BackToHomeButton';
 
 const BoulderHallProjectPage = () => {
   return (
