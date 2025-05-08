@@ -5,7 +5,7 @@ const DoglikeProjectPage = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-6 text-green-700">Doglike – Swift Wochenprojekt</h1>
       <img
-        src="/Doglike/DoglikeMockup.jpg"  // Passe den Pfad ggf. an, wenn das Bild anders heißt
+        src="/DogLike/DogLikeMockup.jpg"  // Passe den Pfad ggf. an, wenn das Bild anders heißt
         alt="Doglike App Preview"
         className="w-full rounded-lg shadow-md mb-8"
       />

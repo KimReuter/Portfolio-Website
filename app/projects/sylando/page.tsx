@@ -10,7 +10,7 @@ const SylandoProjectPage = () => {
         className="w-full rounded-lg shadow-md mb-8"
       />
       <p className="mb-4 text-lg">
-        **Sylando** ist eine minimalistische Shopping-App, die im Rahmen eines einwöchigen Projekts mit Jetpack Compose entstanden ist. 
+        **Sylando** ist eine minimalistische Shopping-App, die im Rahmen eines einwöchigen Projekts mit Swift entstanden ist. 
         Der Fokus lag klar auf der technischen Struktur, nicht auf der Optik.
       </p>
       <p className="mb-4 text-lg">
