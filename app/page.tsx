@@ -40,6 +40,12 @@ const projects = [
     description: 'A beginner-friendly chatbot app built with Jetpack Compose to explore fundamental concepts like Composables, layouting, previews, and theming.',
     slug: 'chatBot',
     imageUrl: '/ChatBot/Robot.jpg'
+  },
+  {
+    title: 'DogLike App',
+    description: 'A playful Swift app built in just one week – featuring animations, notifications, and first test implementations.',
+    slug: 'dogLike',
+    imageUrl: '/DogLike/PreviewDog.jpg'
   }
 ];
 
