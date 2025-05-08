@@ -5,7 +5,7 @@ const BoulderHallProjectPage = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-6 text-green-700">BoulderHall App</h1>
       <img
-        src="/BoulderhallePlauen/BoulderhalleMockupter.jpg"  // Füge hier das Mockup-Bild des Boulderhall-Projekts ein
+        src="/BoulderhallePlauen/BoulderhalleMockup.jpg"  // Füge hier das Mockup-Bild des Boulderhall-Projekts ein
         alt="BoulderHall App Preview"
         className="w-full rounded-lg shadow-md mb-8"
       />
