@@ -1,9 +1,9 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
   "/projects/boulderHallProject/page": "app/projects/boulderHallProject/page.js",
-  "/projects/chatBot/page": "app/projects/chatBot/page.js",
+  "/page": "app/page.js",
   "/projects/codeSnippets/page": "app/projects/codeSnippets/page.js",
-  "/projects/socialMediaApp/page": "app/projects/socialMediaApp/page.js",
-  "/projects/greenly/page": "app/projects/greenly/page.js"
+  "/projects/chatBot/page": "app/projects/chatBot/page.js",
+  "/projects/greenly/page": "app/projects/greenly/page.js",
+  "/projects/socialMediaApp/page": "app/projects/socialMediaApp/page.js"
 }
