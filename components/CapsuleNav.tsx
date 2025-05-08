@@ -31,9 +31,9 @@ const CapsuleNav = () => {
   ];
 
   return (
-    <div className="fixed top-2 sm:top-6 left-1/2 transform -translate-x-1/2 z-50 
-                bg-white bg-opacity-90 px-2 sm:px-4 py-1 sm:py-2 rounded-full 
-                shadow-md flex space-x-1 sm:space-x-2 
+    <div className="fixed top-4 sm:top-8 left-1/2 transform -translate-x-1/2 z-50 
+                bg-white bg-opacity-90 px-3 sm:px-5 py-2 sm:py-3 rounded-full 
+                shadow-md flex space-x-2 sm:space-x-4 
                 overflow-x-auto max-w-[95vw] sm:max-w-none scrollbar-hide">
   {navItems.map((item) => (
     <span
