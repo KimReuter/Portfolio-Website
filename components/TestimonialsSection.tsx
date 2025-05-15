@@ -7,11 +7,11 @@ const TestimonialsSection = () => {
       author: "– Instructor, iOS & Android Module"
     },
     {
-      text: "Kim is a dedicated student who hands in her work on time, oftentimes above expectations. She proactively participates in lectures to share her progress. Her projects use the taught concepts and extend them in sensible ways. She integrates Feedback eagerly and composes her apps and presentations into meaningful wholes.",
+      text: "Kim is consistently present, works reliably, and actively contributes to what’s going on. She shows continuous progress as an aspiring app developer and approaches new challenges with curiosity and a solution-oriented mindset. Her positive energy makes her a true asset to any team.",
       author: "– Student Success Manager"
     },
     {
-      text: "I've accompanied Kim on her journey to becoming an app developer over the past few months and was truly impressed by how quickly and confidently she dives into new topics. She's always fully motivated, asks smart questions, and brings amazing energy to every session. You can tell she's passionate – technically strong, reliable, and with a fantastic mindset. It's a joy to witness her growth!",
+      text: "Kim is a dedicated student who hands in her work on time, oftentimes above expectations. She proactively participates in lectures to share her progress. Her projects use the taught concepts and extend them in sensible ways. She integrates Feedback eagerly and composes her apps and presentations into meaningful wholes.",
       author: "– Instructor, iOS & Android Module"
     },
     {
