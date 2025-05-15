@@ -5,7 +5,7 @@ const SocialMediaProjectPage = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-6 text-green-700">Social Media App</h1>
       <img
-        src="/SocialMedia/SocialMedia_Mockup.jpg" // Hier kannst du später dein echtes Projektbild einsetzen
+        src="/SocialMedia/SocialMedia_Mockup.png" // Hier kannst du später dein echtes Projektbild einsetzen
         alt="Social Media App Project Preview"
         className="w-full rounded-lg shadow-md mb-8"
       />
