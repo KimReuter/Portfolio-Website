@@ -22,14 +22,14 @@ const TestimonialsSection = () => {
 
   return (
     <section id="testimonials" className="py-24 bg-gray-100">
-      <div className="max-w-4xl mx-auto px-4">
+      <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">What People Say About Me</h2>
 
-        <div className="grid gap-8 md:grid-cols-3">
+        <div className="flex overflow-x-auto space-x-6 pb-4 -mx-4 px-4 snap-x snap-mandatory">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-md"
+              className="min-w-[300px] max-w-sm flex-shrink-0 bg-white p-6 rounded-lg shadow-md snap-start"
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
