@@ -35,7 +35,7 @@ const projects = [
     title: 'Social Media App',
     description: 'A modular Kotlin app built with Jetpack Compose to explore UI components, state management, modals, animations, and navigation between screens.',
     slug: 'socialMediaApp',
-    imageUrl: '/BoulderhallePlauen/BoulderhalleMockup.jpg'
+    imageUrl: '/SocialMedia/SocialMedia_Mockup.jpg'
   },
   {
     title: 'Chat Bot App',

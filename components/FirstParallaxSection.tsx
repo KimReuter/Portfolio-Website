@@ -30,10 +30,10 @@ const FirstParallaxSection = () => {
 
       <div className="relative z-20 text-center text-white flex flex-col justify-center items-center h-full px-4">
         <h1 className="text-3xl sm:text-6xl font-bold leading-tight text-balance">
-          Welcome to my Portfolio Page!
+          Hi, I'm Kim!
         </h1>
         <p className="text-md sm:text-xl mt-4 sm:mt-6 leading-relaxed max-w-xl">
-          „Apps that not only challenge the status quo but also shape a sustainable future.“
+          „I create mobile apps with impact – digital tools for a more conscious world.“
         </p>
       </div>
     </section>

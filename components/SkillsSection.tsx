@@ -18,12 +18,12 @@ const SkillsSection = () => {
             <h3 className="text-xl font-semibold mb-4">💻 Technologies</h3>
             <ul className="space-y-2 text-gray-700">
               <li>Swift</li>
+              <li>SwiftUI</li>
               <li>Kotlin</li>
               <li>Jetpack Compose</li>
-              <li>Xcode</li>
-              <li>Android Studio</li>
-              <li>Firebase</li>
-              <li>API Calls</li>
+              <li>Retrofrit</li>
+              <li>MVVM</li>
+              
             </ul>
           </div>
 
@@ -31,6 +31,9 @@ const SkillsSection = () => {
             <h3 className="text-xl font-semibold mb-4">🛠 Tools</h3>
             <ul className="space-y-2 text-gray-700">
               <li>Git & GitHub</li>
+              <li>Xcode</li>
+              <li>Android Studio</li>
+              <li>Firebase</li>
               <li>Postman</li>
               <li>Imgur</li>
               <li>VS Code</li>
