@@ -17,14 +17,12 @@ const projects = [
     slug: 'greenly',
     imageUrl: '/Greenly/GreenlyMockup.jpg'
   },
-  /*
   {
-    title: 'Code Snippets',
-    description: 'A web app where users can create and save small code snippets. Users can log in and view all their created snippets.',
-    slug: 'codeSnippets',
-    imageUrl: '/code-baerlauch.jpg'
+    title: 'Random Acts of Kindness',
+    description: 'A Kotlin-based MVP that encourages users to complete daily acts of kindness – track progress and spread good vibes!',
+    slug: 'randomActsOfKindness',
+    imageUrl: '/RandomActsOfKindness/RandomActsOfKindness_Mockup.jpg'
   },
-  */
   {
     title: 'BoulderHall App',
     description: 'A digital app for the local climbing gym, enabling smooth entry processing, progress tracking, route searching, and member networking.',

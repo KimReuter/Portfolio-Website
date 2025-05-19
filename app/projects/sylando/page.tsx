@@ -5,7 +5,7 @@ const SylandoProjectPage = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-6 text-green-700">Sylando – Shopping App</h1>
       <img
-        src="/Sylando/SylandoMockup.jpg"  // Passe Pfad an, falls das Bild anders heißt
+        src="/Sylando/SylandoMockup.jpg"  
         alt="Sylando App Preview"
         className="w-full rounded-lg shadow-md mb-8"
       />
