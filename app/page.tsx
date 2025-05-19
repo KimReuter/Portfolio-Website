@@ -21,7 +21,7 @@ const projects = [
     title: 'Random Acts of Kindness',
     description: 'A Kotlin-based MVP that encourages users to complete daily acts of kindness – track progress and spread good vibes!',
     slug: 'randomActsOfKindness',
-    imageUrl: '/RandomActsOfKindness/RandomActsOfKindness_Mockup.jpg'
+    imageUrl: '/RandomActsOfKindness/RandomActsOfKindness_Preview.jpg'
   },
   {
     title: 'BoulderHall App',

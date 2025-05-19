@@ -5,7 +5,7 @@ const RandomActsOfKindnessProjectPage = () => {
     <div className="max-w-4xl mx-auto px-4 py-16">
       <h1 className="text-4xl font-bold mb-6 text-pink-600">Random Acts of Kindness</h1>
       <img
-        src="/RandomActsOfKindness/RandomActsOfKindness_Preview.jpg"
+        src="/RandomActsOfKindness/RandomActsOfKindness_Mockup.jpg"
         alt="Random Acts of Kindness App Preview"
         className="w-full rounded-lg shadow-md mb-8"
       />
